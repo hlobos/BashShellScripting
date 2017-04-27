@@ -2,6 +2,9 @@
 
 Basic practice on Bash Shell Scripting
 
+### AscendingNumbers.sh
+-Accepts 3 numbers from user and displays them in ascending order.
+
 ### CompareDirectories.sh:
 -Compares two directories dir1 and dir2 and reports which directory contains more files. Only regular files should be counted, not directories/ subdirectories. There is no recursive examination of subdirectories.
 
@@ -10,6 +13,10 @@ Basic practice on Bash Shell Scripting
 
 ### FileCounter.sh:
 -Counts and reports the number of files in the current working directory. Only regular files are counted, not directories or subdirectories.
+
+### LargestNumber.sh
+-Accepts numbers from the command line and displays the largest.
+- ex: ./LargestNumber 1 2 3
 
 ### MenuCommands.sh:
 -Displays a user selection menu, for inappropriate commands an error message is displayed.
@@ -20,3 +27,11 @@ Basic practice on Bash Shell Scripting
 
 ### PhoneEntryToFile.sh:
 -Adds a phone entry to a file (phonebook.dat) in home directory and displays the contents.
+
+### SystemActivityReport.sh
+-Generates a system activity report with the following:
+- Date
+- Hostname
+- System Diskspace Usage
+- System Memory Usage
+- User Login History
